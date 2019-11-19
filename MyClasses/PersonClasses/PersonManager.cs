@@ -47,5 +47,16 @@ namespace MyClasses
 
             return people;
         }
+
+        public List<Person> GetEmployees()
+        {
+            List<Person> people = new List<Person>();
+
+            people.Add(CreatePerson("Marlon", "Olaya", false));
+            people.Add(CreatePerson("Esteban", "Ortiz", false));
+            people.Add(CreatePerson("Pepe", "ElToro", false));
+
+            return people;
+        }
     }
 }
